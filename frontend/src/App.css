@@ -1,0 +1,215 @@
+/* src/App.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: #030712;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* =========================================
+   SCROLLBAR
+========================================= */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #8b5cf6, #ec4899);
+
+  border-radius: 999px;
+}
+
+/* =========================================
+   GLASS CARD
+========================================= */
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+
+  backdrop-filter: blur(22px);
+
+  -webkit-backdrop-filter: blur(22px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* =========================================
+   GRADIENT TEXT
+========================================= */
+
+.gradient-text {
+  background: linear-gradient(to right, #67e8f9, #c084fc, #f9a8d4);
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.btn-primary {
+  position: relative;
+
+  overflow: hidden;
+
+  border: none;
+
+  outline: none;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
+  background: linear-gradient(to right, #8b5cf6, #d946ef, #ec4899);
+
+  color: white;
+
+  font-weight: 700;
+
+  border-radius: 20px;
+
+  box-shadow: 0 0 35px rgba(168, 85, 247, 0.35);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px) scale(1.02);
+
+  box-shadow: 0 0 45px rgba(168, 85, 247, 0.5);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.05);
+
+  backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  color: white;
+
+  border-radius: 20px;
+
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.08);
+
+  transform: translateY(-2px);
+}
+
+/* =========================================
+   INPUTS
+========================================= */
+
+.input-glass {
+  width: 100%;
+
+  height: 56px;
+
+  border-radius: 18px;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  background: rgba(255, 255, 255, 0.05);
+
+  backdrop-filter: blur(20px);
+
+  color: white;
+
+  padding: 0 16px;
+
+  outline: none;
+
+  transition: all 0.3s ease;
+}
+
+.input-glass::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.input-glass:focus {
+  border-color: rgba(168, 85, 247, 0.5);
+
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.2);
+
+  background: rgba(255, 255, 255, 0.07);
+}
+
+/* =========================================
+   ANIMATIONS
+========================================= */
+
+@keyframes floatY {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float-animation {
+  animation: floatY 3s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.25);
+  }
+
+  50% {
+    box-shadow: 0 0 35px rgba(168, 85, 247, 0.45);
+  }
+
+  100% {
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.25);
+  }
+}
+
+.pulse-glow {
+  animation: pulseGlow 2.5s infinite;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+  .glass-card {
+    border-radius: 24px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+  }
+}

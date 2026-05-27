@@ -1,0 +1,451 @@
+/* ============================================
+   FOOTER
+============================================ */
+
+.footer {
+  position: relative;
+
+  margin-top: 120px;
+
+  background: linear-gradient(
+    145deg,
+    rgba(15, 23, 42, 0.95),
+    rgba(17, 24, 39, 0.92)
+  );
+
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+
+  overflow: hidden;
+}
+
+/* ============================================
+   TOP AREA
+============================================ */
+
+.footer-container {
+  max-width: 1380px;
+
+  margin: auto;
+
+  padding: 80px 24px 60px;
+
+  display: grid;
+
+  grid-template-columns:
+    1.5fr
+    1fr
+    1fr
+    1.4fr;
+
+  gap: 50px;
+}
+
+/* ============================================
+   BRAND
+============================================ */
+
+.footer-brand {
+  max-width: 420px;
+}
+
+.footer-logo {
+  width: 68px;
+
+  height: 68px;
+
+  border-radius: 22px;
+
+  background: linear-gradient(135deg, #0f172a, #0ea5e9);
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 32px;
+
+  color: white;
+
+  margin-bottom: 24px;
+
+  box-shadow: 0 0 35px rgba(14, 165, 233, 0.22);
+}
+
+.footer-brand h2 {
+  font-size: 42px;
+
+  font-weight: 900;
+
+  background: linear-gradient(135deg, #ffffff, #38bdf8);
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-brand p {
+  margin-top: 20px;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  line-height: 1.8;
+
+  font-size: 15px;
+}
+
+/* ============================================
+   SOCIALS
+============================================ */
+
+.footer-socials {
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  margin-top: 28px;
+}
+
+.footer-socials a {
+  width: 48px;
+
+  height: 48px;
+
+  border-radius: 16px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-decoration: none;
+
+  background: rgba(255, 255, 255, 0.04);
+
+  border: 1px solid rgba(255, 255, 255, 0.06);
+
+  color: white;
+
+  font-size: 20px;
+
+  transition: all 0.35s ease;
+}
+
+.footer-socials a:hover {
+  transform: translateY(-4px);
+
+  border-color: rgba(56, 189, 248, 0.22);
+
+  background: linear-gradient(
+    135deg,
+    rgba(14, 165, 233, 0.14),
+    rgba(255, 255, 255, 0.04)
+  );
+
+  box-shadow: 0 0 30px rgba(14, 165, 233, 0.16);
+}
+
+/* ============================================
+   LINKS
+============================================ */
+
+.footer-links h3,
+.footer-newsletter h3 {
+  font-size: 20px;
+
+  font-weight: 800;
+
+  margin-bottom: 24px;
+
+  color: white;
+}
+
+.footer-links {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.58);
+
+  text-decoration: none;
+
+  margin-bottom: 16px;
+
+  transition: all 0.3s ease;
+
+  width: fit-content;
+}
+
+.footer-links a:hover {
+  color: #38bdf8;
+
+  transform: translateX(5px);
+}
+
+/* ============================================
+   NEWSLETTER
+============================================ */
+
+.footer-newsletter p {
+  color: rgba(255, 255, 255, 0.58);
+
+  line-height: 1.7;
+
+  margin-bottom: 24px;
+}
+
+.newsletter-box {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+}
+
+.newsletter-box input {
+  flex: 1;
+
+  height: 58px;
+
+  border-radius: 18px;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  background: rgba(255, 255, 255, 0.04);
+
+  padding: 0 18px;
+
+  color: white;
+
+  outline: none;
+
+  backdrop-filter: blur(10px);
+}
+
+.newsletter-box input:focus {
+  border-color: rgba(56, 189, 248, 0.28);
+
+  box-shadow: 0 0 25px rgba(14, 165, 233, 0.14);
+}
+
+.newsletter-box button {
+  height: 58px;
+
+  padding: 0 24px;
+
+  border-radius: 18px;
+
+  border: none;
+
+  background: linear-gradient(135deg, #0f172a, #0ea5e9);
+
+  color: white;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  transition: all 0.35s ease;
+
+  box-shadow: 0 0 25px rgba(14, 165, 233, 0.18);
+}
+
+.newsletter-box button:hover {
+  transform: translateY(-2px);
+
+  box-shadow: 0 0 40px rgba(14, 165, 233, 0.28);
+}
+
+/* ============================================
+   BOTTOM
+============================================ */
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+
+  padding: 26px 24px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  max-width: 1380px;
+
+  margin: auto;
+}
+
+.footer-bottom p {
+  color: rgba(255, 255, 255, 0.45);
+
+  font-size: 14px;
+}
+
+.footer-bottom-links {
+  display: flex;
+
+  align-items: center;
+
+  gap: 24px;
+}
+
+.footer-bottom-links a {
+  color: rgba(255, 255, 255, 0.5);
+
+  text-decoration: none;
+
+  font-size: 14px;
+
+  transition: 0.3s ease;
+}
+
+.footer-bottom-links a:hover {
+  color: #38bdf8;
+}
+
+/* ============================================
+   RESPONSIVE
+============================================ */
+
+@media (max-width: 1100px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+
+    gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+
+    padding: 60px 18px 50px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+
+    gap: 18px;
+
+    text-align: center;
+  }
+
+  .footer-bottom-links {
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+
+  .newsletter-box {
+    flex-direction: column;
+  }
+
+  .newsletter-box button,
+  .newsletter-box input {
+    width: 100%;
+  }
+
+  .footer-brand h2 {
+    font-size: 34px;
+  }
+}
+/* =========================================
+   DARK THEME
+========================================= */
+
+:root {
+  --bg-primary: #020617;
+
+  --bg-secondary: #0f172a;
+
+  --card-bg: rgba(15, 23, 42, 0.78);
+
+  --glass-bg: rgba(255, 255, 255, 0.04);
+
+  --border-color: rgba(255, 255, 255, 0.08);
+
+  --text-primary: #ffffff;
+
+  --text-secondary: rgba(255, 255, 255, 0.65);
+
+  --primary: #2563eb;
+
+  --primary-light: #38bdf8;
+
+  --shadow: rgba(37, 99, 235, 0.22);
+}
+
+/* =========================================
+   LIGHT THEME
+========================================= */
+
+body[data-theme="light"] {
+  --bg-primary: #f8fafc;
+
+  --bg-secondary: #ffffff;
+
+  --card-bg: rgba(255, 255, 255, 0.88);
+
+  --glass-bg: rgba(15, 23, 42, 0.04);
+
+  --border-color: rgba(15, 23, 42, 0.08);
+
+  --text-primary: #0f172a;
+
+  --text-secondary: rgba(15, 23, 42, 0.68);
+
+  --primary: #2563eb;
+
+  --primary-light: #38bdf8;
+
+  --shadow: rgba(37, 99, 235, 0.16);
+}
+
+/* =========================================
+   BODY
+========================================= */
+
+body {
+  background: var(--bg-primary);
+
+  color: var(--text-primary);
+
+  transition:
+    background 0.35s ease,
+    color 0.35s ease;
+
+  overflow-x: hidden;
+}
+
+/* =========================================
+   GLOBAL
+========================================= */
+
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  font-family: inherit;
+}

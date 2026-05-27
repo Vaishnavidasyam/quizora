@@ -1,0 +1,224 @@
+/* =========================================
+   GOOGLE FONT
+========================================= */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+/* =========================================
+   ROOT
+========================================= */
+
+:root {
+  --bg-primary: #020617;
+
+  --bg-secondary: #0f172a;
+
+  --card-bg: rgba(15, 23, 42, 0.72);
+
+  --border-color: rgba(255, 255, 255, 0.06);
+
+  --text-primary: #ffffff;
+
+  --text-secondary: rgba(255, 255, 255, 0.7);
+
+  --blue-primary: #0ea5e9;
+
+  --blue-secondary: #2563eb;
+
+  --success: #10b981;
+
+  --danger: #ef4444;
+}
+
+/* =========================================
+   RESET
+========================================= */
+
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(14, 165, 233, 0.12),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(37, 99, 235, 0.12),
+      transparent 30%
+    ),
+    var(--bg-primary);
+
+  color: var(--text-primary);
+
+  overflow-x: hidden;
+
+  min-height: 100vh;
+}
+
+/* =========================================
+   APP
+========================================= */
+
+#root {
+  min-height: 100vh;
+}
+
+.app-layout {
+  min-height: 100vh;
+}
+
+/* =========================================
+   COMMON CONTAINER
+========================================= */
+
+.container-premium {
+  width: 100%;
+
+  max-width: 1400px;
+
+  margin: auto;
+
+  padding-inline: 24px;
+}
+
+/* =========================================
+   GLASS CARD
+========================================= */
+
+.glass-card {
+  background: var(--card-bg);
+
+  backdrop-filter: blur(18px);
+
+  border: 1px solid var(--border-color);
+
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.28);
+}
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.btn-primary {
+  height: 54px;
+
+  padding-inline: 28px;
+
+  border: none;
+
+  border-radius: 16px;
+
+  background: linear-gradient(
+    135deg,
+    var(--blue-primary),
+    var(--blue-secondary)
+  );
+
+  color: white;
+
+  font-weight: 700;
+
+  text-decoration: none;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
+  box-shadow: 0 12px 30px rgba(14, 165, 233, 0.24);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+
+  box-shadow: 0 18px 38px rgba(14, 165, 233, 0.34);
+}
+
+.btn-secondary {
+  height: 54px;
+
+  padding-inline: 28px;
+
+  border-radius: 16px;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  background: rgba(255, 255, 255, 0.04);
+
+  color: white;
+
+  font-weight: 700;
+
+  text-decoration: none;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* =========================================
+   TEXT
+========================================= */
+
+.gradient-text {
+  background: linear-gradient(135deg, #ffffff, #7dd3fc);
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+/* =========================================
+   SCROLLBAR
+========================================= */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#0ea5e9, #2563eb);
+
+  border-radius: 999px;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+  .container-premium {
+    padding-inline: 18px;
+  }
+}

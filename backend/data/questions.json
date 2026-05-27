@@ -1,0 +1,1720 @@
+{
+  "meta": {
+    "version": "2.0.0",
+    "totalQuestions": 150,
+    "categories": 19,
+    "lastUpdated": "2026-05-24",
+    "author": "QuizVerse Premium Team"
+  },
+  "categories": {
+    "movies": [
+      {
+        "_id": "mov-001",
+        "category": "movies",
+        "subCategory": "Bollywood",
+        "difficulty": "easy",
+        "question": "Which movie won the Oscar for Best Picture in 2024?",
+        "questionType": "text",
+        "options": [
+          { "text": "Oppenheimer", "isCorrect": true },
+          { "text": "Barbie", "isCorrect": false },
+          { "text": "Killers of the Flower Moon", "isCorrect": false },
+          { "text": "Past Lives", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "Oppenheimer won 7 Oscars including Best Picture at the 96th Academy Awards.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["oscar", "awards", "2024"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "mov-002",
+        "category": "movies",
+        "subCategory": "Hollywood",
+        "difficulty": "easy",
+        "question": "Who directed the movie 'Avatar' (2009)?",
+        "questionType": "text",
+        "options": [
+          { "text": "Steven Spielberg", "isCorrect": false },
+          { "text": "James Cameron", "isCorrect": true },
+          { "text": "Christopher Nolan", "isCorrect": false },
+          { "text": "Quentin Tarantino", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "James Cameron directed Avatar, which became the highest-grossing film of all time.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["director", "avatar", "hollywood"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "mov-003",
+        "category": "movies",
+        "subCategory": "Bollywood",
+        "difficulty": "medium",
+        "question": "Which is the highest-grossing Bollywood movie of all time?",
+        "questionType": "text",
+        "options": [
+          { "text": "Dangal", "isCorrect": true },
+          { "text": "Pathan", "isCorrect": false },
+          { "text": "Jawan", "isCorrect": false },
+          { "text": "Baahubali 2", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "Dangal grossed over ₹2000 crore worldwide, making it the highest-grossing Indian film.",
+        "points": 10,
+        "timeLimit": 20,
+        "tags": ["bollywood", "box-office", "record"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "mov-004",
+        "category": "movies",
+        "subCategory": "Hollywood",
+        "difficulty": "medium",
+        "question": "Which movie features the iconic line 'May the Force be with you'?",
+        "questionType": "text",
+        "options": [
+          { "text": "Star Trek", "isCorrect": false },
+          { "text": "Star Wars", "isCorrect": true },
+          { "text": "Guardians of the Galaxy", "isCorrect": false },
+          { "text": "Avatar", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "This is the most famous quote from the Star Wars franchise.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["star-wars", "quote", "classic"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "mov-005",
+        "category": "movies",
+        "subCategory": "OTT",
+        "difficulty": "easy",
+        "question": "Which Netflix series is set in Madrid and involves a heist?",
+        "questionType": "text",
+        "options": [
+          { "text": "Elite", "isCorrect": false },
+          { "text": "Money Heist (La Casa de Papel)", "isCorrect": true },
+          { "text": "White Crow", "isCorrect": false },
+          { "text": "Narcos", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Money Heist is a Spanish crime thriller about heists at the Royal Mint of Spain.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["netflix", "heist", "spanish"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "mov-006",
+        "category": "movies",
+        "subCategory": "Animation",
+        "difficulty": "easy",
+        "question": "Which Disney movie features the song 'Let It Go'?",
+        "questionType": "text",
+        "options": [
+          { "text": "Tangled", "isCorrect": false },
+          { "text": "Frozen", "isCorrect": true },
+          { "text": "Moana", "isCorrect": false },
+          { "text": "Encanto", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "'Let It Go' is the iconic song from Disney's Frozen, sung by Elsa.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["disney", "animation", "song"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "mov-007",
+        "category": "movies",
+        "subCategory": "Superhero",
+        "difficulty": "medium",
+        "question": "Who played Iron Man in the Marvel Cinematic Universe?",
+        "questionType": "text",
+        "options": [
+          { "text": "Chris Evans", "isCorrect": false },
+          { "text": "Chris Hemsworth", "isCorrect": false },
+          { "text": "Robert Downey Jr.", "isCorrect": true },
+          { "text": "Mark Ruffalo", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Robert Downey Jr. portrayed Tony Stark/Iron Man in 10 MCU films.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["marvel", "mcu", "superhero"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "mov-008",
+        "category": "movies",
+        "subCategory": "Bollywood",
+        "difficulty": "hard",
+        "question": "Which Shah Rukh Khan movie completed 30 years in theaters in 2023?",
+        "questionType": "text",
+        "options": [
+          { "text": "Dilwale Dulhania Le Jayenge", "isCorrect": true },
+          { "text": "Kuch Kuch Hota Hai", "isCorrect": false },
+          { "text": "Devdas", "isCorrect": false },
+          { "text": "Veer-Zaara", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "DDLJ (1995) holds the record for longest-running film in Indian cinema history.",
+        "points": 15,
+        "timeLimit": 25,
+        "tags": ["srk", "classic", "record"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "mov-009",
+        "category": "movies",
+        "subCategory": "Hollywood",
+        "difficulty": "medium",
+        "question": "Which movie won the first Academy Award for Best Picture?",
+        "questionType": "text",
+        "options": [
+          { "text": "The Broadway Melody", "isCorrect": false },
+          { "text": "Wings", "isCorrect": true },
+          { "text": "Sunrise", "isCorrect": false },
+          { "text": "The Jazz Singer", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Wings (1927) won the first Oscar for Best Picture at the 1929 ceremony.",
+        "points": 15,
+        "timeLimit": 20,
+        "tags": ["oscar", "classic", "history"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "mov-010",
+        "category": "movies",
+        "subCategory": "Animation",
+        "difficulty": "easy",
+        "question": "In 'Toy Story', what is the name of the cowboy doll?",
+        "questionType": "text",
+        "options": [
+          { "text": "Buzz", "isCorrect": false },
+          { "text": "Woody", "isCorrect": true },
+          { "text": "Jessie", "isCorrect": false },
+          { "text": "Rex", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Woody is the main character and Andy's favorite toy in Toy Story.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["pixar", "disney", "animation"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      }
+    ],
+    "gaming": [
+      {
+        "_id": "gam-001",
+        "category": "gaming",
+        "subCategory": "General",
+        "difficulty": "easy",
+        "question": "Which game is known as the 'Building game'?",
+        "questionType": "text",
+        "options": [
+          { "text": "Fortnite", "isCorrect": false },
+          { "text": "Minecraft", "isCorrect": true },
+          { "text": "PUBG", "isCorrect": false },
+          { "text": "GTA V", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Minecraft is famous for its building and creativity mechanics.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["minecraft", "building", "sandbox"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gam-002",
+        "category": "gaming",
+        "subCategory": "General",
+        "difficulty": "medium",
+        "question": "What does 'NPC' stand for in gaming?",
+        "questionType": "text",
+        "options": [
+          { "text": "Non-Player Character", "isCorrect": true },
+          { "text": "New Player Course", "isCorrect": false },
+          { "text": "Noob Player Class", "isCorrect": false },
+          { "text": "Normal Player Card", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "NPCs are characters controlled by the game AI, not players.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["terminology", "basics"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gam-003",
+        "category": "gaming",
+        "subCategory": "Console",
+        "difficulty": "easy",
+        "question": "Which company makes PlayStation?",
+        "questionType": "text",
+        "options": [
+          { "text": "Microsoft", "isCorrect": false },
+          { "text": "Nintendo", "isCorrect": false },
+          { "text": "Sony", "isCorrect": true },
+          { "text": "Apple", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Sony Interactive Entertainment develops and publishes PlayStation consoles.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["playstation", "sony", "console"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gam-004",
+        "category": "gaming",
+        "subCategory": "Battle Royale",
+        "difficulty": "easy",
+        "question": "In PUBG, what does 'Battlegrounds' stand for?",
+        "questionType": "text",
+        "options": [
+          { "text": "PlayerUnknown's Battlegrounds", "isCorrect": true },
+          { "text": "Professional's Battlegrounds", "isCorrect": false },
+          { "text": "Public's Battlegrounds", "isCorrect": false },
+          { "text": "Players Battlegrounds", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "PUBG stands for PlayerUnknown's Battlegrounds, named after Brendan Greene.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["pubg", "battle-royale"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gam-005",
+        "category": "gaming",
+        "subCategory": "Nintendo",
+        "difficulty": "easy",
+        "question": "Which character is the mascot of Nintendo?",
+        "questionType": "text",
+        "options": [
+          { "text": "Sonic", "isCorrect": false },
+          { "text": "Mario", "isCorrect": true },
+          { "text": "Crash Bandicoot", "isCorrect": false },
+          { "text": "Lara Croft", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Mario is Nintendo's flagship character since 1981.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["nintendo", "mario", "mascot"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gam-006",
+        "category": "gaming",
+        "subCategory": "Esports",
+        "difficulty": "medium",
+        "question": "Which game has the largest esports prize pool?",
+        "questionType": "text",
+        "options": [
+          { "text": "League of Legends", "isCorrect": false },
+          { "text": "Dota 2", "isCorrect": true },
+          { "text": "CS:GO", "isCorrect": false },
+          { "text": "Fortnite", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Dota 2's The International tournament has the highest esports prize pools.",
+        "points": 15,
+        "timeLimit": 20,
+        "tags": ["esports", "dota2", "tournament"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gam-007",
+        "category": "gaming",
+        "subCategory": "Mobile",
+        "difficulty": "easy",
+        "question": "Which mobile game introduced the 'Battle Pass' system?",
+        "questionType": "text",
+        "options": [
+          { "text": "PUBG Mobile", "isCorrect": false },
+          { "text": "Free Fire", "isCorrect": false },
+          { "text": "Fortnite", "isCorrect": true },
+          { "text": "Call of Duty Mobile", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Fortnite popularized the Battle Pass monetization system in 2018.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["fortnite", "battle-pass", "monetization"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gam-008",
+        "category": "gaming",
+        "subCategory": "RPG",
+        "difficulty": "hard",
+        "question": "Which game won Game of the Year at The Game Awards 2022?",
+        "questionType": "text",
+        "options": [
+          { "text": "Elden Ring", "isCorrect": true },
+          { "text": "God of War Ragnarök", "isCorrect": false },
+          { "text": "Xenoblade Chronicles 3", "isCorrect": false },
+          { "text": "A Plague Tale: Requiem", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "Elden Ring won 6 awards including Game of the Year at The Game Awards 2022.",
+        "points": 15,
+        "timeLimit": 20,
+        "tags": ["goty", "elden-ring", "awards"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gam-009",
+        "category": "gaming",
+        "subCategory": "History",
+        "difficulty": "medium",
+        "question": "What is the best-selling video game of all time?",
+        "questionType": "text",
+        "options": [
+          { "text": "Tetris", "isCorrect": false },
+          { "text": "Minecraft", "isCorrect": true },
+          { "text": "GTA V", "isCorrect": false },
+          { "text": "Wii Sports", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Minecraft has sold over 300 million copies, making it the best-selling game.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["record", "minecraft", "sales"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gam-010",
+        "category": "gaming",
+        "subCategory": "FPS",
+        "difficulty": "medium",
+        "question": "Which Call of Duty game was the first in the series?",
+        "questionType": "text",
+        "options": [
+          { "text": "Call of Duty 2", "isCorrect": false },
+          { "text": "Call of Duty (2003)", "isCorrect": true },
+          { "text": "World at War", "isCorrect": false },
+          { "text": "Modern Warfare", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "The original Call of Duty was released in 2003 for PC.",
+        "points": 10,
+        "timeLimit": 20,
+        "tags": ["cod", "history", "fps"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      }
+    ],
+    "ai-ml": [
+      {
+        "_id": "aiml-001",
+        "category": "ai-ml",
+        "subCategory": "Basics",
+        "difficulty": "easy",
+        "question": "What does AI stand for?",
+        "questionType": "text",
+        "options": [
+          { "text": "Artificial Intelligence", "isCorrect": true },
+          { "text": "Automated Intelligence", "isCorrect": false },
+          { "text": "Artificial Interface", "isCorrect": false },
+          { "text": "Advanced Integration", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "AI stands for Artificial Intelligence - simulation of human intelligence by machines.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["basics", "definition"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "aiml-002",
+        "category": "ai-ml",
+        "subCategory": "Algorithms",
+        "difficulty": "medium",
+        "question": "Which algorithm is primarily used for classification problems?",
+        "questionType": "text",
+        "options": [
+          { "text": "Linear Regression", "isCorrect": false },
+          { "text": "K-Means Clustering", "isCorrect": false },
+          { "text": "Decision Tree", "isCorrect": true },
+          { "text": "PCA", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Decision Trees are commonly used for classification tasks in ML.",
+        "points": 10,
+        "timeLimit": 20,
+        "tags": ["algorithms", "classification"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "aiml-003",
+        "category": "ai-ml",
+        "subCategory": "Deep Learning",
+        "difficulty": "medium",
+        "question": "What does CNN stand for in deep learning?",
+        "questionType": "text",
+        "options": [
+          { "text": "Convolutional Neural Network", "isCorrect": true },
+          { "text": "Central Neural Network", "isCorrect": false },
+          { "text": "Computer Neural Network", "isCorrect": false },
+          { "text": "Complex Neural Network", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "CNNs are neural networks designed for processing grid-like data (images).",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["cnn", "deep-learning", "images"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "aiml-004",
+        "category": "ai-ml",
+        "subCategory": "Concepts",
+        "difficulty": "medium",
+        "question": "What is 'overfitting' in machine learning?",
+        "questionType": "text",
+        "options": [
+          {
+            "text": "Model performs well on training data but poorly on test data",
+            "isCorrect": true
+          },
+          {
+            "text": "Model performs poorly on both training and test data",
+            "isCorrect": false
+          },
+          {
+            "text": "Model performs well on both training and test data",
+            "isCorrect": false
+          },
+          {
+            "text": "Model is too simple to capture patterns",
+            "isCorrect": false
+          }
+        ],
+        "correctOption": 0,
+        "explanation": "Overfitting occurs when a model memorizes training data but fails to generalize.",
+        "points": 10,
+        "timeLimit": 20,
+        "tags": ["overfitting", "generalization"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "aiml-005",
+        "category": "ai-ml",
+        "subCategory": "Libraries",
+        "difficulty": "easy",
+        "question": "Which Python library is most popular for machine learning?",
+        "questionType": "text",
+        "options": [
+          { "text": "React", "isCorrect": false },
+          { "text": "Django", "isCorrect": false },
+          { "text": "scikit-learn", "isCorrect": true },
+          { "text": "Express", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "scikit-learn is the most popular ML library in Python.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["python", "libraries", "scikit-learn"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "aiml-006",
+        "category": "ai-ml",
+        "subCategory": "NLP",
+        "difficulty": "medium",
+        "question": "What does NLP stand for in AI?",
+        "questionType": "text",
+        "options": [
+          { "text": "Natural Language Processing", "isCorrect": true },
+          { "text": "New Language Programming", "isCorrect": false },
+          { "text": "Neural Language Protocol", "isCorrect": false },
+          { "text": "Natural Learning Process", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "NLP is the field of AI focused on interaction between computers and human language.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["nlp", "language", "ai"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "aiml-007",
+        "category": "ai-ml",
+        "subCategory": "Frameworks",
+        "difficulty": "easy",
+        "question": "Which company developed TensorFlow?",
+        "questionType": "text",
+        "options": [
+          { "text": "Facebook", "isCorrect": false },
+          { "text": "Microsoft", "isCorrect": false },
+          { "text": "Google", "isCorrect": true },
+          { "text": "Amazon", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "TensorFlow is an open-source ML framework developed by Google.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["tensorflow", "google", "framework"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "aiml-008",
+        "category": "ai-ml",
+        "subCategory": "Concepts",
+        "difficulty": "hard",
+        "question": "What is the 'Curse of Dimensionality'?",
+        "questionType": "text",
+        "options": [
+          {
+            "text": "Problems arising when analyzing data in high-dimensional spaces",
+            "isCorrect": true
+          },
+          { "text": "When a model has too few features", "isCorrect": false },
+          {
+            "text": "When data is too small to train a model",
+            "isCorrect": false
+          },
+          { "text": "When neural networks are too deep", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "The Curse of Dimensionality refers to various phenomena that arise when analyzing data in high-dimensional spaces.",
+        "points": 15,
+        "timeLimit": 25,
+        "tags": ["dimensionality", "theory"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "aiml-009",
+        "category": "ai-ml",
+        "subCategory": "Applications",
+        "difficulty": "easy",
+        "question": "Which AI model type is used for generating text like ChatGPT?",
+        "questionType": "text",
+        "options": [
+          { "text": "CNN", "isCorrect": false },
+          { "text": "RNN", "isCorrect": false },
+          { "text": "Transformer", "isCorrect": true },
+          { "text": "GAN", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Transformers are the architecture behind modern LLMs like ChatGPT.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["transformer", "llm", "chatgpt"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "aiml-010",
+        "category": "ai-ml",
+        "subCategory": "Ethics",
+        "difficulty": "medium",
+        "question": "What is 'AI bias'?",
+        "questionType": "text",
+        "options": [
+          {
+            "text": "When AI models make unfair decisions due to biased training data",
+            "isCorrect": true
+          },
+          { "text": "When AI is slower than humans", "isCorrect": false },
+          { "text": "When AI costs too much", "isCorrect": false },
+          { "text": "When AI is too accurate", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "AI bias occurs when training data contains prejudices, leading to unfair AI decisions.",
+        "points": 10,
+        "timeLimit": 20,
+        "tags": ["ethics", "bias", "fairness"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      }
+    ],
+    "science": [
+      {
+        "_id": "sci-001",
+        "category": "science",
+        "subCategory": "Astronomy",
+        "difficulty": "medium",
+        "question": "Which planet has the most moons?",
+        "questionType": "text",
+        "options": [
+          { "text": "Jupiter", "isCorrect": false },
+          { "text": "Saturn", "isCorrect": true },
+          { "text": "Uranus", "isCorrect": false },
+          { "text": "Neptune", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Saturn has 146 confirmed moons, the most in our solar system.",
+        "points": 10,
+        "timeLimit": 20,
+        "tags": ["planets", "moons", "solar-system"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "sci-002",
+        "category": "science",
+        "subCategory": "Chemistry",
+        "difficulty": "easy",
+        "question": "What is the hardest natural substance on Earth?",
+        "questionType": "text",
+        "options": [
+          { "text": "Gold", "isCorrect": false },
+          { "text": "Iron", "isCorrect": false },
+          { "text": "Diamond", "isCorrect": true },
+          { "text": "Platinum", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Diamond is the hardest known natural material on the Mohs scale.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["chemistry", "materials"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "sci-003",
+        "category": "science",
+        "subCategory": "Physics",
+        "difficulty": "medium",
+        "question": "What is the speed of light in vacuum?",
+        "questionType": "text",
+        "options": [
+          { "text": "199,999 km/s", "isCorrect": false },
+          { "text": "299,792 km/s", "isCorrect": true },
+          { "text": "399,999 km/s", "isCorrect": false },
+          { "text": "499,999 km/s", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "The speed of light is approximately 299,792 km/s.",
+        "points": 10,
+        "timeLimit": 20,
+        "tags": ["physics", "light", "constants"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "sci-004",
+        "category": "science",
+        "subCategory": "Biology",
+        "difficulty": "easy",
+        "question": "What is the largest organ in the human body?",
+        "questionType": "text",
+        "options": [
+          { "text": "Liver", "isCorrect": false },
+          { "text": "Brain", "isCorrect": false },
+          { "text": "Skin", "isCorrect": true },
+          { "text": "Heart", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Skin is the largest organ, covering about 2 square meters in adults.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["biology", "anatomy"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "sci-005",
+        "category": "science",
+        "subCategory": "Chemistry",
+        "difficulty": "easy",
+        "question": "What is H2O commonly known as?",
+        "questionType": "text",
+        "options": [
+          { "text": "Salt", "isCorrect": false },
+          { "text": "Water", "isCorrect": true },
+          { "text": "Air", "isCorrect": false },
+          { "text": "Gold", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "H2O is the chemical formula for water.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["chemistry", "water"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "sci-006",
+        "category": "science",
+        "subCategory": "Physics",
+        "difficulty": "easy",
+        "question": "Who developed the theory of relativity?",
+        "questionType": "text",
+        "options": [
+          { "text": "Isaac Newton", "isCorrect": false },
+          { "text": "Albert Einstein", "isCorrect": true },
+          { "text": "Nikola Tesla", "isCorrect": false },
+          { "text": "Galileo", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Albert Einstein developed the theory of relativity.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["einstein", "physics"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "sci-007",
+        "category": "science",
+        "subCategory": "Biology",
+        "difficulty": "easy",
+        "question": "Which organ pumps blood in the human body?",
+        "questionType": "text",
+        "options": [
+          { "text": "Lungs", "isCorrect": false },
+          { "text": "Kidney", "isCorrect": false },
+          { "text": "Heart", "isCorrect": true },
+          { "text": "Liver", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "The heart pumps blood throughout the body.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["heart", "biology"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "sci-008",
+        "category": "science",
+        "subCategory": "Astronomy",
+        "difficulty": "medium",
+        "question": "Which planet is closest to the Sun?",
+        "questionType": "text",
+        "options": [
+          { "text": "Earth", "isCorrect": false },
+          { "text": "Mercury", "isCorrect": true },
+          { "text": "Venus", "isCorrect": false },
+          { "text": "Mars", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Mercury is the closest planet to the Sun.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["space", "mercury"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "sci-009",
+        "category": "science",
+        "subCategory": "Chemistry",
+        "difficulty": "medium",
+        "question": "What gas do plants absorb from the atmosphere?",
+        "questionType": "text",
+        "options": [
+          { "text": "Oxygen", "isCorrect": false },
+          { "text": "Nitrogen", "isCorrect": false },
+          { "text": "Carbon Dioxide", "isCorrect": true },
+          { "text": "Hydrogen", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Plants absorb carbon dioxide for photosynthesis.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["plants", "photosynthesis"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "sci-010",
+        "category": "science",
+        "subCategory": "Physics",
+        "difficulty": "hard",
+        "question": "What is the SI unit of force?",
+        "questionType": "text",
+        "options": [
+          { "text": "Pascal", "isCorrect": false },
+          { "text": "Newton", "isCorrect": true },
+          { "text": "Joule", "isCorrect": false },
+          { "text": "Watt", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "The SI unit of force is Newton (N).",
+        "points": 15,
+        "timeLimit": 20,
+        "tags": ["force", "physics"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      }
+    ],
+    "gk": [
+      {
+        "_id": "gk-001",
+        "category": "gk",
+        "subCategory": "Geography",
+        "difficulty": "easy",
+        "question": "What is the capital of India?",
+        "questionType": "text",
+        "options": [
+          { "text": "Mumbai", "isCorrect": false },
+          { "text": "Kolkata", "isCorrect": false },
+          { "text": "New Delhi", "isCorrect": true },
+          { "text": "Chennai", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "New Delhi is the capital of India.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["india", "capital"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gk-002",
+        "category": "gk",
+        "subCategory": "Geography",
+        "difficulty": "medium",
+        "question": "Which is the largest ocean on Earth?",
+        "questionType": "text",
+        "options": [
+          { "text": "Atlantic Ocean", "isCorrect": false },
+          { "text": "Indian Ocean", "isCorrect": false },
+          { "text": "Arctic Ocean", "isCorrect": false },
+          { "text": "Pacific Ocean", "isCorrect": true }
+        ],
+        "correctOption": 3,
+        "explanation": "The Pacific Ocean is the largest, covering about 63 million square miles.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["ocean", "geography"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gk-003",
+        "category": "gk",
+        "subCategory": "History",
+        "difficulty": "medium",
+        "question": "Who invented the telephone?",
+        "questionType": "text",
+        "options": [
+          { "text": "Thomas Edison", "isCorrect": false },
+          { "text": "Alexander Graham Bell", "isCorrect": true },
+          { "text": "Nikola Tesla", "isCorrect": false },
+          { "text": "Isaac Newton", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Alexander Graham Bell was awarded the first US patent for the telephone in 1876.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["invention", "history"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gk-004",
+        "category": "gk",
+        "subCategory": "Astronomy",
+        "difficulty": "easy",
+        "question": "Which planet is known as the Red Planet?",
+        "questionType": "text",
+        "options": [
+          { "text": "Venus", "isCorrect": false },
+          { "text": "Jupiter", "isCorrect": false },
+          { "text": "Mars", "isCorrect": true },
+          { "text": "Saturn", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Mars is called the Red Planet due to iron oxide on its surface.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["planets", "mars"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gk-005",
+        "category": "gk",
+        "subCategory": "General",
+        "difficulty": "easy",
+        "question": "How many colors are in a rainbow?",
+        "questionType": "text",
+        "options": [
+          { "text": "5", "isCorrect": false },
+          { "text": "6", "isCorrect": false },
+          { "text": "7", "isCorrect": true },
+          { "text": "8", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "A rainbow has 7 colors: Red, Orange, Yellow, Green, Blue, Indigo, Violet.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["nature", "colors"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gk-006",
+        "category": "gk",
+        "subCategory": "Sports",
+        "difficulty": "easy",
+        "question": "Which country won the ICC Cricket World Cup 2023?",
+        "questionType": "text",
+        "options": [
+          { "text": "India", "isCorrect": false },
+          { "text": "Australia", "isCorrect": true },
+          { "text": "England", "isCorrect": false },
+          { "text": "Pakistan", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Australia won the ICC Cricket World Cup 2023.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["cricket", "worldcup"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gk-007",
+        "category": "gk",
+        "subCategory": "History",
+        "difficulty": "medium",
+        "question": "Who was the first President of India?",
+        "questionType": "text",
+        "options": [
+          { "text": "Jawaharlal Nehru", "isCorrect": false },
+          { "text": "Rajendra Prasad", "isCorrect": true },
+          { "text": "Sardar Patel", "isCorrect": false },
+          { "text": "APJ Abdul Kalam", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Dr. Rajendra Prasad was the first President of India.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["india", "president"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gk-008",
+        "category": "gk",
+        "subCategory": "Science",
+        "difficulty": "easy",
+        "question": "Which gas do humans need to breathe?",
+        "questionType": "text",
+        "options": [
+          { "text": "Nitrogen", "isCorrect": false },
+          { "text": "Carbon Dioxide", "isCorrect": false },
+          { "text": "Oxygen", "isCorrect": true },
+          { "text": "Helium", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Humans breathe oxygen for survival.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["oxygen", "science"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gk-009",
+        "category": "gk",
+        "subCategory": "Technology",
+        "difficulty": "medium",
+        "question": "Who founded Microsoft?",
+        "questionType": "text",
+        "options": [
+          { "text": "Steve Jobs", "isCorrect": false },
+          { "text": "Bill Gates", "isCorrect": true },
+          { "text": "Elon Musk", "isCorrect": false },
+          { "text": "Mark Zuckerberg", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Microsoft was founded by Bill Gates and Paul Allen.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["microsoft", "technology"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      },
+      {
+        "_id": "gk-010",
+        "category": "gk",
+        "subCategory": "Geography",
+        "difficulty": "medium",
+        "question": "Which is the largest continent on Earth?",
+        "questionType": "text",
+        "options": [
+          { "text": "Africa", "isCorrect": false },
+          { "text": "Europe", "isCorrect": false },
+          { "text": "Asia", "isCorrect": true },
+          { "text": "North America", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Asia is the largest continent by area and population.",
+        "points": 10,
+        "timeLimit": 15,
+        "tags": ["asia", "geography"],
+        "views": 0,
+        "correctAnswers": 0,
+        "isActive": true
+      }
+    ],
+    "anime": [
+      {
+        "_id": "ani-001",
+        "category": "anime",
+        "subCategory": "Naruto",
+        "difficulty": "easy",
+        "question": "Who is Naruto Uzumaki's father?",
+        "questionType": "text",
+        "options": [
+          { "text": "Kakashi Hatake", "isCorrect": false },
+          { "text": "Minato Namikaze", "isCorrect": true },
+          { "text": "Jiraiya", "isCorrect": false },
+          { "text": "Itachi Uchiha", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Minato Namikaze, the Fourth Hokage, is Naruto's father.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "ani-002",
+        "category": "anime",
+        "subCategory": "One Piece",
+        "difficulty": "easy",
+        "question": "What is the name of Luffy's pirate crew?",
+        "questionType": "text",
+        "options": [
+          { "text": "Blackbeard Pirates", "isCorrect": false },
+          { "text": "Red Hair Pirates", "isCorrect": false },
+          { "text": "Straw Hat Pirates", "isCorrect": true },
+          { "text": "Heart Pirates", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Luffy leads the Straw Hat Pirates in One Piece.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "ani-003",
+        "category": "anime",
+        "subCategory": "Dragon Ball",
+        "difficulty": "medium",
+        "question": "What is Goku's Saiyan name?",
+        "questionType": "text",
+        "options": [
+          { "text": "Vegeta", "isCorrect": false },
+          { "text": "Broly", "isCorrect": false },
+          { "text": "Kakarot", "isCorrect": true },
+          { "text": "Bardock", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Goku's original Saiyan name is Kakarot.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "ani-004",
+        "category": "anime",
+        "subCategory": "Attack on Titan",
+        "difficulty": "medium",
+        "question": "Who is known as the Colossal Titan?",
+        "questionType": "text",
+        "options": [
+          { "text": "Eren Yeager", "isCorrect": false },
+          { "text": "Reiner Braun", "isCorrect": false },
+          { "text": "Bertholdt Hoover", "isCorrect": true },
+          { "text": "Levi Ackerman", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Bertholdt Hoover possessed the Colossal Titan power.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "ani-005",
+        "category": "anime",
+        "subCategory": "Death Note",
+        "difficulty": "easy",
+        "question": "What is the name of the Shinigami who drops the Death Note?",
+        "questionType": "text",
+        "options": [
+          { "text": "Ryuk", "isCorrect": true },
+          { "text": "Rem", "isCorrect": false },
+          { "text": "Light", "isCorrect": false },
+          { "text": "Near", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "Ryuk intentionally drops the Death Note into the human world.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "ani-006",
+        "category": "anime",
+        "subCategory": "Demon Slayer",
+        "difficulty": "easy",
+        "question": "What is Tanjiro's sister's name?",
+        "questionType": "text",
+        "options": [
+          { "text": "Mitsuri", "isCorrect": false },
+          { "text": "Shinobu", "isCorrect": false },
+          { "text": "Nezuko", "isCorrect": true },
+          { "text": "Kanao", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Nezuko Kamado is Tanjiro's demon sister.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "ani-007",
+        "category": "anime",
+        "subCategory": "Jujutsu Kaisen",
+        "difficulty": "medium",
+        "question": "Who is known as the strongest sorcerer?",
+        "questionType": "text",
+        "options": [
+          { "text": "Yuji Itadori", "isCorrect": false },
+          { "text": "Satoru Gojo", "isCorrect": true },
+          { "text": "Megumi Fushiguro", "isCorrect": false },
+          { "text": "Sukuna", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Satoru Gojo is considered the strongest jujutsu sorcerer.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "ani-008",
+        "category": "anime",
+        "subCategory": "Tokyo Ghoul",
+        "difficulty": "medium",
+        "question": "What transformation does Kaneki undergo?",
+        "questionType": "text",
+        "options": [
+          { "text": "Vampire", "isCorrect": false },
+          { "text": "Titan", "isCorrect": false },
+          { "text": "Ghoul", "isCorrect": true },
+          { "text": "Demon", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Kaneki becomes a half-ghoul after surgery.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "ani-009",
+        "category": "anime",
+        "subCategory": "Bleach",
+        "difficulty": "hard",
+        "question": "What is Ichigo Kurosaki's primary power?",
+        "questionType": "text",
+        "options": [
+          { "text": "Ninja", "isCorrect": false },
+          { "text": "Soul Reaper", "isCorrect": true },
+          { "text": "Titan", "isCorrect": false },
+          { "text": "Wizard", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Ichigo becomes a Substitute Soul Reaper.",
+        "points": 15,
+        "timeLimit": 20,
+        "isActive": true
+      },
+      {
+        "_id": "ani-010",
+        "category": "anime",
+        "subCategory": "Pokemon",
+        "difficulty": "easy",
+        "question": "Who is Pikachu's trainer?",
+        "questionType": "text",
+        "options": [
+          { "text": "Brock", "isCorrect": false },
+          { "text": "Misty", "isCorrect": false },
+          { "text": "Ash Ketchum", "isCorrect": true },
+          { "text": "Gary", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Ash Ketchum is Pikachu's long-time trainer.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      }
+    ],
+
+    "music": [
+      {
+        "_id": "mus-001",
+        "category": "music",
+        "subCategory": "Pop",
+        "difficulty": "easy",
+        "question": "Who is known as the 'King of Pop'?",
+        "questionType": "text",
+        "options": [
+          { "text": "Elvis Presley", "isCorrect": false },
+          { "text": "Michael Jackson", "isCorrect": true },
+          { "text": "Drake", "isCorrect": false },
+          { "text": "Bruno Mars", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Michael Jackson is globally known as the King of Pop.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mus-002",
+        "category": "music",
+        "subCategory": "K-Pop",
+        "difficulty": "easy",
+        "question": "Which K-pop group released the song 'Dynamite'?",
+        "questionType": "text",
+        "options": [
+          { "text": "BLACKPINK", "isCorrect": false },
+          { "text": "EXO", "isCorrect": false },
+          { "text": "BTS", "isCorrect": true },
+          { "text": "Twice", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "BTS released Dynamite in 2020.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mus-003",
+        "category": "music",
+        "subCategory": "Indian",
+        "difficulty": "easy",
+        "question": "Who composed the Oscar-winning song 'Naatu Naatu'?",
+        "questionType": "text",
+        "options": [
+          { "text": "Anirudh", "isCorrect": false },
+          { "text": "AR Rahman", "isCorrect": false },
+          { "text": "MM Keeravani", "isCorrect": true },
+          { "text": "DSP", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "MM Keeravani composed Naatu Naatu from RRR.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mus-004",
+        "category": "music",
+        "subCategory": "Rock",
+        "difficulty": "medium",
+        "question": "Which band sang 'Bohemian Rhapsody'?",
+        "questionType": "text",
+        "options": [
+          { "text": "Queen", "isCorrect": true },
+          { "text": "Nirvana", "isCorrect": false },
+          { "text": "Coldplay", "isCorrect": false },
+          { "text": "Metallica", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "Bohemian Rhapsody was performed by Queen.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mus-005",
+        "category": "music",
+        "subCategory": "Instruments",
+        "difficulty": "easy",
+        "question": "How many strings does a standard guitar have?",
+        "questionType": "text",
+        "options": [
+          { "text": "4", "isCorrect": false },
+          { "text": "5", "isCorrect": false },
+          { "text": "6", "isCorrect": true },
+          { "text": "7", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "A standard guitar has 6 strings.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mus-006",
+        "category": "music",
+        "subCategory": "Pop",
+        "difficulty": "medium",
+        "question": "Which singer released the album '1989'?",
+        "questionType": "text",
+        "options": [
+          { "text": "Ariana Grande", "isCorrect": false },
+          { "text": "Taylor Swift", "isCorrect": true },
+          { "text": "Billie Eilish", "isCorrect": false },
+          { "text": "Selena Gomez", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "1989 is one of Taylor Swift's biggest albums.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mus-007",
+        "category": "music",
+        "subCategory": "Rap",
+        "difficulty": "medium",
+        "question": "Who is known as the 'Rap God'?",
+        "questionType": "text",
+        "options": [
+          { "text": "Drake", "isCorrect": false },
+          { "text": "Kanye West", "isCorrect": false },
+          { "text": "Eminem", "isCorrect": true },
+          { "text": "Travis Scott", "isCorrect": false }
+        ],
+        "correctOption": 2,
+        "explanation": "Eminem released the hit song Rap God.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mus-008",
+        "category": "music",
+        "subCategory": "Awards",
+        "difficulty": "hard",
+        "question": "Which award is considered the biggest in music?",
+        "questionType": "text",
+        "options": [
+          { "text": "Grammy", "isCorrect": true },
+          { "text": "Oscar", "isCorrect": false },
+          { "text": "Emmy", "isCorrect": false },
+          { "text": "Tony", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "The Grammy Awards are the most prestigious music awards.",
+        "points": 15,
+        "timeLimit": 20,
+        "isActive": true
+      },
+      {
+        "_id": "mus-009",
+        "category": "music",
+        "subCategory": "Indian",
+        "difficulty": "easy",
+        "question": "Which Indian singer is known as the 'Nightingale of India'?",
+        "questionType": "text",
+        "options": [
+          { "text": "Shreya Ghoshal", "isCorrect": false },
+          { "text": "Lata Mangeshkar", "isCorrect": true },
+          { "text": "Sunidhi Chauhan", "isCorrect": false },
+          { "text": "Alka Yagnik", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Lata Mangeshkar is called the Nightingale of India.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mus-010",
+        "category": "music",
+        "subCategory": "EDM",
+        "difficulty": "medium",
+        "question": "Which DJ created the song 'Faded'?",
+        "questionType": "text",
+        "options": [
+          { "text": "Martin Garrix", "isCorrect": false },
+          { "text": "Alan Walker", "isCorrect": true },
+          { "text": "Marshmello", "isCorrect": false },
+          { "text": "David Guetta", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Alan Walker released Faded in 2015.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      }
+    ],
+
+    "memes": [
+      {
+        "_id": "mem-001",
+        "category": "memes",
+        "subCategory": "Classic",
+        "difficulty": "easy",
+        "question": "Which meme features a dog saying 'Such Wow'?",
+        "questionType": "text",
+        "options": [
+          { "text": "Pepe", "isCorrect": false },
+          { "text": "Doge", "isCorrect": true },
+          { "text": "Grumpy Cat", "isCorrect": false },
+          { "text": "Troll Face", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Doge meme became famous with 'Such Wow' captions.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mem-002",
+        "category": "memes",
+        "subCategory": "Reaction",
+        "difficulty": "easy",
+        "question": "Which meme says 'This is Fine'?",
+        "questionType": "text",
+        "options": [
+          { "text": "Burning Dog", "isCorrect": true },
+          { "text": "Pepe", "isCorrect": false },
+          { "text": "Dancing Baby", "isCorrect": false },
+          { "text": "Success Kid", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "The 'This is Fine' meme features a dog sitting in fire.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mem-003",
+        "category": "memes",
+        "subCategory": "Internet",
+        "difficulty": "easy",
+        "question": "Which meme character is green and often used online?",
+        "questionType": "text",
+        "options": [
+          { "text": "Doge", "isCorrect": false },
+          { "text": "Pepe the Frog", "isCorrect": true },
+          { "text": "Grumpy Cat", "isCorrect": false },
+          { "text": "Big Chungus", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "Pepe the Frog became one of the most used internet memes.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mem-004",
+        "category": "memes",
+        "subCategory": "Gaming",
+        "difficulty": "medium",
+        "question": "Which meme became famous from Among Us?",
+        "questionType": "text",
+        "options": [
+          { "text": "Sus", "isCorrect": true },
+          { "text": "No Cap", "isCorrect": false },
+          { "text": "Ratio", "isCorrect": false },
+          { "text": "NPC", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "'Sus' became viral from Among Us gameplay.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mem-005",
+        "category": "memes",
+        "subCategory": "Classic",
+        "difficulty": "easy",
+        "question": "Which meme face is known for trolling?",
+        "questionType": "text",
+        "options": [
+          { "text": "Troll Face", "isCorrect": true },
+          { "text": "Doge", "isCorrect": false },
+          { "text": "Pepe", "isCorrect": false },
+          { "text": "Success Kid", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "Troll Face became iconic in internet trolling culture.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mem-006",
+        "category": "memes",
+        "subCategory": "Social Media",
+        "difficulty": "medium",
+        "question": "What does 'Ratio' mean on social media?",
+        "questionType": "text",
+        "options": [
+          { "text": "More replies than likes", "isCorrect": true },
+          { "text": "More likes than views", "isCorrect": false },
+          { "text": "Trending hashtag", "isCorrect": false },
+          { "text": "Meme image", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "Ratio is used when replies outperform likes, often negatively.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mem-007",
+        "category": "memes",
+        "subCategory": "Reaction",
+        "difficulty": "easy",
+        "question": "Which meme features a confused woman with equations?",
+        "questionType": "text",
+        "options": [
+          { "text": "Math Lady", "isCorrect": true },
+          { "text": "Disaster Girl", "isCorrect": false },
+          { "text": "Hide the Pain Harold", "isCorrect": false },
+          { "text": "Success Kid", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "Math Lady meme represents confusion and calculations.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mem-008",
+        "category": "memes",
+        "subCategory": "Classic",
+        "difficulty": "medium",
+        "question": "Which meme features a smiling kid with clenched fist?",
+        "questionType": "text",
+        "options": [
+          { "text": "Success Kid", "isCorrect": true },
+          { "text": "Bad Luck Brian", "isCorrect": false },
+          { "text": "Doge", "isCorrect": false },
+          { "text": "Pepe", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "Success Kid became a symbol of achievement online.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mem-009",
+        "category": "memes",
+        "subCategory": "Internet",
+        "difficulty": "medium",
+        "question": "What does 'No Cap' mean in internet slang?",
+        "questionType": "text",
+        "options": [
+          { "text": "No lie", "isCorrect": true },
+          { "text": "No hat", "isCorrect": false },
+          { "text": "No money", "isCorrect": false },
+          { "text": "No chance", "isCorrect": false }
+        ],
+        "correctOption": 0,
+        "explanation": "'No Cap' means someone is telling the truth.",
+        "points": 10,
+        "timeLimit": 15,
+        "isActive": true
+      },
+      {
+        "_id": "mem-010",
+        "category": "memes",
+        "subCategory": "Gaming",
+        "difficulty": "hard",
+        "question": "Which meme phrase became popular from Twitch streams?",
+        "questionType": "text",
+        "options": [
+          { "text": "GG EZ", "isCorrect": false },
+          { "text": "PogChamp", "isCorrect": true },
+          { "text": "AFK", "isCorrect": false },
+          { "text": "Clutch", "isCorrect": false }
+        ],
+        "correctOption": 1,
+        "explanation": "PogChamp became one of Twitch's most iconic emotes.",
+        "points": 15,
+        "timeLimit": 20,
+        "isActive": true
+      }
+    ]
+  }
+}
