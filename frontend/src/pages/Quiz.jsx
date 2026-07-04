@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import axios from "axios";
-
+import { API_BASE_URL } from "../utils/constants";
 import { useSearchParams, useNavigate } from "react-router-dom";
 
 import { FiClock, FiCheck, FiX, FiArrowRight, FiAward } from "react-icons/fi";
