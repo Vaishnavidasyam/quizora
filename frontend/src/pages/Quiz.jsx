@@ -48,7 +48,7 @@ const Quiz = () => {
       setLoading(true);
 
       const res = await axios.get(
-        `http://localhost:5000/api/questions/category/${category}`,
+         `${API_BASE_URL}/questions/category/${category}`,
       );
 
       setQuestions(res.data.questions || []);
